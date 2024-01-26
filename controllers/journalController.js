@@ -1,0 +1,1 @@
+const Journal = require('../models/journal')
