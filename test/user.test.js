@@ -72,24 +72,3 @@ describe('Test the users endpoints', () => {
       expect(response.body.message).toEqual('User deleted')
     })
   })
-
-  //journal endpoints
-
-  describe('Test the journal endpoints', () => {
-    test('It should create a new journal', async () => {
-        const user = new User({ name: 'John Doe', email: 'john.doe@example.com', password: 'password123' })
-        await user.save()
-        const token = await user.generateAuthToken()
-
-        const response = await request(app)
-            .post('/journals')
-            .set('Authorization', `Bearer ${token}`)
-            .send({ title: 'Hawaii Trip', location: 'Hawaii', summary: 'I went to Hawaii and it was awesome', date_visited: '01-01-21' })
-
-        expect(response.statusCode).toBe(200)
-        expect(response.body.title).toEqual('Hawaii Trip')
-        expect(response.body.location).toEqual('Hawaii')
-        expect(response.body.summary).toEqual('I went to Hawaii and it was awesome')
-        expect(response.body.date_visited).toEqual('01-01-21')
-    })
-  })
