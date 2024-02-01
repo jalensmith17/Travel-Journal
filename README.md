@@ -1,4 +1,4 @@
-Travel Journal API
+<h1>Travel Journal API</h1>
 
 API Description
 
