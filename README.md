@@ -14,6 +14,7 @@
   <li>Install developer packages with command - npm i -D</li>
   <li>Enter code . in the command line to open your code software of choice</li>
   <li>Within your .env file add your unique MongoDB connection string (MONGO_URI).</li>
+    <li>Add a PORT variable to your .env file. For example, "PORT=3000"</li>
     <li>Create a hash by visiting SHA256. Then put JWT.SECRET= **yourhash** into your .env file</li>
     <li>Open your browser and create a new repository on GitHub. Attach the empty repository to the newly created one on GitHub.
 </li>
@@ -30,5 +31,14 @@
       git branch -M main
       <br>
       git push -u origin main
+    </li>
+  </ol>
+
+  <h2>Running Tests via Jest & Supertest</h2>
+  <ol>
+    <li>Run the server by inputting - npm run dev</li>
+    <li>Run the tests by inputting - npm run test
+      <br>
+      This should return 9 test passing and 0 fails.
     </li>
   </ol>
