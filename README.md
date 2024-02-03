@@ -7,11 +7,10 @@
 <h2>Installing the API</h2>
 <ol>
   <li>Make a directory in your computer using the command line</li>
-  <liInitialize an empty git repository with git init</li>
+  <liInitialize an empty git repository with git init and clone my repository onto your machine</li>
   <li>Create .env, and .gitignore files in your api</li>
   <li>Input npm init -y into the command line</li>
   <li>Install the given packages onto your computer with command - npm i</li>
-  <li>Install developer packages with command - npm i -D</li>
   <li>Enter code . in the command line to open your code software of choice</li>
   <li>Within your .env file add your unique MongoDB connection string (MONGO_URI).</li>
     <li>Add a PORT variable to your .env file. For example, "PORT=3000"</li>
