@@ -8,7 +8,7 @@
 <ol>
   <li>Make a directory in your computer using the command line</li>
   <liInitialize an empty git repository with git init and clone my repository onto your machine using SSH</li>
-  <li>Create .env, and .gitignore files in your api</li>
+  <li>Create a .env file in the directory</li>
   <li>Install the given packages onto your computer with command - npm i</li>
   <li>Enter code . in the command line to open your code software of choice</li>
   <li>Within your .env file add your unique MongoDB connection string (MONGO_URI).</li>
