@@ -40,3 +40,21 @@
       This should return 9 test passing and 0 fails.
     </li>
   </ol>
+
+  <h2>User & Journal Routes</h2>
+  <br>
+  <h3>User Routes<h3>
+  <ol>
+    <li>POST router.post('/', userController.createUser)</li>
+    <li>POST router.post('/login', userController.loginUser)</li>
+    <li>PUT router.put('/:id', userController.updateUser)</li>
+    <li>DELETE router.delete('/:id', userController.auth, userController.deleteUser)</li>
+  </ol>
+  <h3>Journal Routes</h3>
+  <ol>
+    <li>GET router.get('/', journalController.indexJournal)</li>
+    <li>DELETE router.delete('/:id', journalController.deleteJournal)</li>
+    <li>PUT router.put('/:id', journalController.updateJournal)</li>
+    <li>POST router.post('/', journalController.createJournal)</li>
+    <li>GET router.get('/:id', journalController.getJournal)</li>
+  </ol>
