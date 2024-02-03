@@ -7,7 +7,7 @@
 <h2>Installing the API</h2>
 <ol>
   <li>Make a directory in your computer using the command line</li>
-  <liInitialize an empty git repository with git init and clone my repository onto your machine</li>
+  <liInitialize an empty git repository with git init and clone my repository onto your machine using SSH</li>
   <li>Create .env, and .gitignore files in your api</li>
   <li>Input npm init -y into the command line</li>
   <li>Install the given packages onto your computer with command - npm i</li>
